@@ -2,4 +2,4 @@
 /.gradle/
 /.idea/
 /build/
-/logs/
+application-oauth.properties
