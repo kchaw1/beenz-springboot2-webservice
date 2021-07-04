@@ -48,6 +48,10 @@ deploy:
     region: ap-northeast-2
     wait-until-deployed: true
 
+artifacts:
+  files:
+    - appspec.yml
+
 notifications:
   email:
     recipients:
