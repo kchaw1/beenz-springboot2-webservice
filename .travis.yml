@@ -48,7 +48,6 @@ deploy:
     wait-until-deployed: true
 
 notifications:
-  slack: windswepthq:$SLACK_TOKEN_KEY
   email:
     recipients:
       - heatarin@gmail.com
