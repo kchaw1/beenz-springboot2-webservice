@@ -51,3 +51,4 @@ notifications:
   email:
     recipients:
       - heatarin@gmail.com
+  slack: windswepthq:$SLACK_TOKEN_KEY
