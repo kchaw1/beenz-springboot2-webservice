@@ -48,6 +48,4 @@ deploy:
     wait-until-deployed: true
 
 notifications:
-  email:
-    recipients:
-      - heatarin@gmail.com
+  slack: $SLACK_ACCOUNT_TOKEN
